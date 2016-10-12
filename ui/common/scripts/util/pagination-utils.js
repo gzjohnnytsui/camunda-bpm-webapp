@@ -1,8 +1,8 @@
 'use strict';
 
-var angular = require('angular');
+var angular = require('camunda-commons-ui/vendor/angular');
 
-var DEFAULT_PAGES = { size: 50, total: 0, current: 1 };
+var DEFAULT_PAGES = { size: 4, total: 0, current: 1 };
 
 module.exports = {
   initializePaginationInController: initializePaginationInController

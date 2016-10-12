@@ -1,6 +1,6 @@
 'use strict';
 
-var angular = require('angular');
+var angular = require('camunda-commons-ui/vendor/angular');
 var includes = require('./includes');
 
 module.exports = {
